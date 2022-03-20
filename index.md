@@ -1,10 +1,6 @@
 ## Welcome to my site
 
-Software Design / Enginnering:
-
-Development of a Python Login system pulling credentials from a database.  For ease of use, a .txt file was used.  Update as needed to check functionality on your file system.
-
-  [Artifact 1](https://github.com/MikeARiv/mikeariv.github.io)
+Beginning stages of ePortfolio.
 
 ### Artifact 1 
 
