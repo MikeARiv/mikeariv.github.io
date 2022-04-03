@@ -10,15 +10,17 @@ Software Design / Enginnering:
 
   [Artifact 1](https://github.com/MikeARiv/mikeariv.github.io/blob/main/Employee_Tracker.py)
   
-  Enhancements provided:
+  Highlights:
   
-  Creation code for username and password.
-  Read elements from a database
-  Update and append user accounts to database
+  Username and Password acceptance.
+  
+  Read elements from a database.
+  
+  Update and append user accounts to said database.
 
 ```markdown
 # Example code snippet of enhancements:
-
+//Function to show utilization of database in the form of a text file for username/password placement:
 def registration():
     db = open("credentials.txt" , "r") #For ease of access, we are using a text file as database and the r option for read
     username = input("Create username:") #pass in username for registration
@@ -27,13 +29,15 @@ def registration():
     d = [] #store username
     f = [] #store password
 
+//Ability to append username and passwords:
     for i in db:
         a,b = i.split(", ") #remove comma and space so password stands alone if we print it out
         b = b.strip()
         d.append(a) #ability to append username
         f.append(b) #ability to append password
     data = dict(zip(d, f))
-    
+
+//Validation of username and password from database:
     if password !=  password1: #validation of created password
         print("Password validation did not succeed, please confirm your password")
         registration()
