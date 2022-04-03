@@ -8,7 +8,7 @@ Software Design / Enginnering:
 
   Initial development for a Python Login system pulling credentials from a database.  For ease of use, a .txt file was used.  Update as needed to check functionality on your file system.
 
-  [Artifact 1](https://github.com/MikeARiv/mikeariv.github.io)
+  [Artifact 1](https://github.com/MikeARiv/mikeariv.github.io/blob/main/Employee_Tracker.py)
   
   Enhancements provided:
   
