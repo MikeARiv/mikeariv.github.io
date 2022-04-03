@@ -6,7 +6,7 @@ Beginning stages of ePortfolio.
 
 Software Design / Enginnering:
 
-  Initial development for a Python Login system pulling credentials from a database.  For ease of use, a .txt file was used.  Update as needed to check functionality on your file system.  This artifact was inspired by aspects of previous systems made in java and python.  Additionaly functionality to be added with encryption in the coming weeks.
+  Initial development for a Python Login system pulling credentials from a database.  For ease of use, a .txt file was used.  Update as needed to check functionality on your file system.
 
   [Artifact 1](https://github.com/MikeARiv/mikeariv.github.io)
   
@@ -15,7 +15,6 @@ Software Design / Enginnering:
   Creation code for username and password.
   Read elements from a database
   Update and append user accounts to database
-  ***Delete function pending***
 
 ```markdown
 # Example code snippet of enhancements:
@@ -51,12 +50,55 @@ def registration():
             print("***User Creation Was Successful***")
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Artifact 2 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MikeARiv/mikeariv.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Algorithms and Data Structures:
 
-### Support or Contact
+  Development of artifact 2 was utilzied to show a further enhanced login system, developed with Java and utilziation of MD5 hash algorithm for password storage into a database.  Continued used of credentials.txt for ease of use.  This artifact was inspired by aspects of previous systems made in java and python.  
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  [Artifact 2](https://github.com/MikeARiv/mikeariv.github.io)
+  
+  Enhancements provided:
+  
+  Define a function to accept user input for username and password
+	Translate and encrypt password for storage in database
+	Ability to call username and password to validate user from a database
+
+```markdown
+# Example code snippet of enhancements:
+
+//Username and password request
+   System.out.println("Please enter username: ");   //requesting username input
+   username = scnr.nextLine();   //scanning for next set of words in a line in order to establish username
+   if (username.equals("q")){   //if statement which allows quit if user selects q
+      inputDone = true;   //allow inputDone to be true in order to end application
+      System.out.println("You have now exited the session.  Goodbye");
+   return;
+   }
+   
+//Password request
+   System.out.println("Please enter your password: ");   //requesting password input
+   password = scnr.nextLine();   //scanning for next set of words in a line to establish password
+   if (password.equals("q")){   //if statement which allows quit if user selects q
+      inputDone = true;   //allow inputDone to be true in order to end application
+      System.out.println("You have now exited the session.  Goodbye");   //end statement printed to user for validation of end
+   return;
+   }
+
+//Translate and encrypt password
+   else {
+      String original = password;  //Replace "password" with the actual password inputted by the user
+		  MessageDigest md = MessageDigest.getInstance("MD5");
+		  md.update(original.getBytes());
+		  byte[] digest = md.digest();
+      StringBuffer sb = new StringBuffer();
+		  for (byte b : digest) {
+			   sb.append(String.format("%02x", b & 0xff));
+		     }
+//Reading in credentials from database
+     URL path = authenticationSystem.class.getResource("credentials.txt");   //setting URL path to the same folder in which our document is located
+		 File f = new File(path.getFile());   //input for filepath to be read in
+		 BufferedReader reader = new BufferedReader(new FileReader(f));   //buffer stated to read and store input from File f
+		 line = null;
+```
