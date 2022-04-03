@@ -63,11 +63,13 @@ Algorithms and Data Structures:
 
   [Artifact 2](https://github.com/MikeARiv/mikeariv.github.io/blob/main/authenticationSystem.java)
   
-  Enhancements provided:
+  Highlights:
   
   Define a function to accept user input for username and password
-	Translate and encrypt password for storage in database
-	Ability to call username and password to validate user from a database
+  
+  Translate and encrypt password for storage in database
+  
+  Ability to call username and password to validate user from a database
 
 ```markdown
 # Example code snippet of enhancements:
