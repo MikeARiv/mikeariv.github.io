@@ -12,11 +12,11 @@ Software Design / Enginnering:
   
   Highlights:
   
-  Username and Password acceptance.
+     Username and Password acceptance.
   
-  Read elements from a database.
+     Read elements from a database.
   
-  Update and append user accounts to said database.
+     Update and append user accounts to said database.
 
 ```markdown
 # Example code snippet of enhancements:
@@ -65,11 +65,11 @@ Algorithms and Data Structures:
   
   Highlights:
   
-  Define a function to accept user input for username and password
+     Define a function to accept user input for username and password
   
-  Translate and encrypt password for storage in database
+     Translate and encrypt password for storage in database
   
-  Ability to call username and password to validate user from a database
+     Ability to call username and password to validate user from a database
 
 ```markdown
 # Example code snippet of enhancements:
