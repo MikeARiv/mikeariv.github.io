@@ -57,7 +57,7 @@ Algorithms and Data Structures:
 
   Development of artifact 2 was utilzied to show a further enhanced login system, developed with Java and utilziation of MD5 hash algorithm for password storage into a database.  Continued used of credentials.txt for ease of use.  This artifact was inspired by aspects of previous systems made in java and python.  
 
-  [Artifact 2](https://github.com/MikeARiv/mikeariv.github.io)
+  [Artifact 2](https://github.com/MikeARiv/mikeariv.github.io/blob/main/authenticationSystem.java)
   
   Enhancements provided:
   
