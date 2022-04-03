@@ -1,6 +1,4 @@
-## Welcome to my site
-
-Beginning stages of ePortfolio.
+## Electronic Portfolio developed to showcase a few key concepts I have learned over the years.
 
 ### Artifact 1 
 
@@ -74,7 +72,7 @@ Algorithms and Data Structures:
 ```markdown
 # Example code snippet of enhancements:
 
-//Username and password request
+//Username request
    System.out.println("Please enter username: ");   //requesting username input
    username = scnr.nextLine();   //scanning for next set of words in a line in order to establish username
    if (username.equals("q")){   //if statement which allows quit if user selects q
@@ -107,4 +105,52 @@ Algorithms and Data Structures:
 		 File f = new File(path.getFile());   //input for filepath to be read in
 		 BufferedReader reader = new BufferedReader(new FileReader(f));   //buffer stated to read and store input from File f
 		 line = null;
+```
+
+### Artifact 3 
+
+Databases:
+
+  Artifact created to showcase Create, Read, Update and Delete functionality utilizing a python script.
+
+  [Artifact 3](https://github.com/MikeARiv/mikeariv.github.io/blob/main/MongoDB_CRUD.py)
+  
+  Highlights:
+  
+     Query functionality, and ability to find records
+  
+     Ability to Create, Read, Update and Delete Records
+
+
+```markdown
+# Example code snippet of enhancements:
+//Create user accounts in MongoDB.
+    def create(self, data):
+        if data is not None:
+            self.database."replace with your databse name".insert(data)  # data should be dictionary
+        else:
+            raise Exception("Nothing to save, because data parameter is empty")
+
+//Ability to read a query in MongoDB for finding one of a data type you are looking for.
+    def read(self,data):
+        if data is not None:
+            return self.database."replace with your databse name".find_one(data)
+        else:
+            print('Nothing to read, because data parameter is empty')
+        return False
+        
+//Update method for updating a record in your MongoDB
+  def update(self, find=dict(), replace=dict()): #utilized to find and replace items
+    if find is not None: #if function performing find and replace
+        toUpdate = self.database."replace with your databse name".update_many(find, {"$set":replace})
+        return json.dumps(str(toUpdate.modified_count) + ' record has been updated')
+    else:
+        raise Exception("Did not work")
+          
+//Delete method to delete a record
+  def delete(self, data=dict()):
+    if data is not None:
+        return json.dumps(self.database."replace with your databse name".remove(data))
+    else:
+        raise Exception("Did not work")
 ```
