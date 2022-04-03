@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 import urllib.parse
 
-class AnimalShelter(object):
+class "Replace with your Database Info" (object):
     """ CRUD operations in MongoDB """
 
     def __init__(self):
