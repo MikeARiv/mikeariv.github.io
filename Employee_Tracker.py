@@ -1,10 +1,13 @@
 '''
-This is a generic user login system developed by Michael Rivera
-GitHub: https://github.com/MikeARiv
-Gitpages: https://mikeariv.github.io/
+This is a generic user login system.
+Please adjust to the needs of you and your team.
 '''
 
 #function used to pass in username and password, for validation and input of both from credentials.txt
+'''
+Utilize this section to adapt to your needs, as in change db to pass in SSH or MongoDB information for logon if necessary.
+credentials.txt was used as a temporary solution and should be address based on your needs, and can be a different file altogether.
+'''
 def registration():
     db = open("credentials.txt" , "r") #For ease of access, we are using a text file as database and the r option for read
     username = input("Create username:") #pass in username for registration
@@ -35,7 +38,10 @@ def registration():
             db.write(username+", "+password+ "\n")
             print("***User Creation Was Successful***")
 
-
+#function used to validate username and password from credentials.txt
+'''
+Change to your database for credential verification or create a document that is secure to abstract and validate users from.
+'''
 def access():
     db = open("credentials.txt" , "r")
     username = input("Enter username:")
@@ -68,7 +74,11 @@ def access():
             print("Username or password does not exist")
     else:
         print("Please enter a value")
-
+        
+#function to develop a home dashboard
+'''
+Creates an option dashboard for user selection and functionality
+'''
 def dashboard(option = None):
     option = input("**********Authorized personnel only********\nFor Login enter 1:\nFor New User enter 2:\nTo Quit, Enter 3:\n**********Authorized personnel only********\n")
     if option == "1":
