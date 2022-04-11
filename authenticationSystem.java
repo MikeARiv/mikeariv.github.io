@@ -1,8 +1,14 @@
+/*
+Advance login system with utilization of MD5 encryption for validation
+This system can read from a database and validate user accounts and MD5 encrypted passwords.
+Please read the comments below to update information to reflect your needs.
+*/
 import java.util.*;
 import java.io.*;
 import java.net.URL;
 import java.security.*;
 
+//Function for reading in a user account from a database that store passwords in MD5 encryption and validation of account
 public class authenticationSystem {
    public static void main(String[] args) throws IOException , NoSuchAlgorithmException {
       Scanner scnr = new Scanner(System.in);   //Input stream for standard input
