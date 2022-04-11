@@ -1,6 +1,7 @@
 '''
 This is a generic user login system.
-Please adjust to the needs of you and your team.
+Please adjust to the needs.
+Headers and comments provided for ease of use.
 '''
 
 #function used to pass in username and password, for validation and input of both from credentials.txt
@@ -78,6 +79,7 @@ def access():
 #function to develop a home dashboard
 '''
 Creates an option dashboard for user selection and functionality
+Add additional options if necessary via an added else if statement.
 '''
 def dashboard(option = None):
     option = input("**********Authorized personnel only********\nFor Login enter 1:\nFor New User enter 2:\nTo Quit, Enter 3:\n**********Authorized personnel only********\n")
