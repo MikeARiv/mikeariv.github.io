@@ -1,4 +1,4 @@
-## Enhancement Three: Algorithms and Data Structures
+## Enhancement Three: Databases
 
 This artifact was initially created in CS340, created in October of 2021, to showcase the ability to query from a MongoDB.  The initial commit back then did not have full functionality and use of queries; thus, the enhancement was needed to get it to work accordingly.
 
