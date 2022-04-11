@@ -5,6 +5,7 @@ This artifact was initially created in CS340, created in October of 2021, to sho
 This artifact was selected to showcase Create, Read, Update and Delete functionality in databases.  Over the past few weeks of interviews this was asked of me from 2 different potential employers post military retirement.  For this I wanted to highlight:
 
 -Query functionality, and ability to find records
+
 -Ability to Create, Read, Update and Delete Records.
 
 This artifact has improved since it now reflects correct statements to ensure queries work.  I have also updated all comments to reflect changes needed to meet other programmers needs and to help them hop in and can change things quickly.
