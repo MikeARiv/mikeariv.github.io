@@ -129,6 +129,8 @@ Databases:
     def create(self, data):
         if data is not None:
             self.database."replace with your databse name".insert(data)  # data should be dictionary
+	    #We can also insert many with the below inputs
+            #collection_name.insert_many([item_1, item_2])
         else:
             raise Exception("Nothing to save, because data parameter is empty")
 
