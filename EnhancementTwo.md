@@ -5,7 +5,9 @@ The artifact utilized is from our zookeeper application developed in IT-145.  Im
 Use of this artifact was something that I truly enjoyed to show specifically my concentration in information security.  To enhance one's ability to develop code in a way that stops erroneous input, as well as ensuring that the correct input is used, is something I have had interest in for the past few years.  The specific components enhanced:
 
 -Define a function to accept user input for username and password
+
 -Translate and encrypt password for storage in database
+
 -Ability to call username and encrypted password to validate user from a database.
 
 Implementation of credentials.txt was used to simulate the database in use, where the logon for MongoDB was developed in Enhancment Three.  Additionally, enhancements were made to identify information through more commenting relative to requirements for the defined function or line of code.
