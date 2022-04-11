@@ -1,3 +1,11 @@
+'''
+Utilization script to allow CRUD operations in MongoDB.
+If running on your local system, utilize localhost.
+If running on another server, this would require IP and port information accrodingly.
+Comments identify items to change.
+Additional functionality to create a new collection and find items added.
+'''
+
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 import urllib.parse
@@ -12,14 +20,25 @@ class "Replace with your Database Info" (object):
         user = 'enter username'
         password = urllib.parse.quote_plus('pass/word')
         password = 'enter password'
+        #adjust local host or port information to you host device for MongoDB
         self.client = MongoClient('mongodb://%s:%s@localhost:"enter your local port information"' % (user, password))
         self.database = self.client['enter database to use']
         #return True
-
+        
+        '''
+        additional functionality to create a new collection:
+        collection_name = dbname["item_1"]
+        
+        additional functionality for find an item:
+        item_dteails = collection_name.find()
+        '''
+        
 # Complete this create user accounts in MongoDB.
     def create(self, data):
         if data is not None:
             self.database."replace with your databse name".insert(data)  # data should be dictionary
+            #We can also insert many with the below inputs
+            #collection_name.insert_many([item_1, item_2])
         else:
             raise Exception("Nothing to save, because data parameter is empty")
 
