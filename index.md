@@ -17,3 +17,10 @@ Under Construction
 ## Preparing For The Future
 
 Under Construction
+
+**Porfolio Links**<br>
+* [Professional Self-Assessment](https://mikeariv.github.io/index.html)<br>
+* [Refinement Plan & Code Review](https://mikeariv.github.io/CodeReview.html)<br>
+* [Enhancement One](https://mikeariv.github.io/EnhancementOne.html)<br>
+* [Enhancement Two](https://mikeariv.github.io/EnhancementTwo.html)<br>
+* [Enhancement Three](https://mikeariv.github.io/EnhancementThree.html)
