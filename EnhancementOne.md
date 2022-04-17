@@ -12,10 +12,8 @@ I do believe the course objective was met, but not to the ability I am striving 
 
 I was reintroduced to nesting of if and else statements and found them easier to work with compared to the while statement.  This module this require me to review much of the concepts I learned in java and reworking them to be on python.  I had to be reminded of how to read and pass in information from files with python, as well as changing syntax.  Overall, I enjoyed this module and looking forward to adding encryption and database functionality in the next few weeks. 
 
-
-**Link to Enhancement**
-
 [Original Artifact ](https://mikeariv.github.io/animal_shelter.py)
+**Link to Enhancement**
 [Enhancement One ](https://mikeariv.github.io/Employee_Tracker.py)
 
 **Porfolio Links**<br>
