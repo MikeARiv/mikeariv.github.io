@@ -23,7 +23,7 @@ The overall intent of this portfolio was to showcase some of the work accomplish
 
 As I develop my skills further in software development, I plan to further research tools like Node.js, React and Django.  I have grown to love the development portion to have an impact on business and customers based on the amount of work put into it.  Learning the business aspect and how to employ this systems on a larger scale is what I want to better understand and work with, thus reasoning for looking into internships with several companies.
 
-**Porfolio Links*<br>
+**Porfolio Links**<br>
 * [Professional Self-Assessment](https://mikeariv.github.io/index.html)<br>
 * [Refinement Plan & Code Review](https://mikeariv.github.io/CodeReview.html)<br>
 * [Enhancement One](https://mikeariv.github.io/EnhancementOne.html)<br>
