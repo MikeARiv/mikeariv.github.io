@@ -37,7 +37,7 @@ Pseudocode:
 
 Development of this segment will increase the ability to understand queries in a more human readable format.  Given the wealth of data provide by most databases, having the ability to “clean it up”, will show the refinement of database skills I have learned while with SNHU.  
 
-**Code Review Place Holder**
+**Code Review**
 <div align="center">
   <iframe 
         width="560" 
