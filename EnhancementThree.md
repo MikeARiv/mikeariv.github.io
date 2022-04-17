@@ -14,10 +14,14 @@ Comments also now reflect changes needed to meet other programmers needs and to 
 
 Development of enhanced queries via python is a way of automating database functionality to ensure validity from back end through to front end.  Having this system in place will furhter join applications from back end to front end in future projects.
 
+Additional database showcase related to plotting queries directly on a website can be seen at the additional link below.  Recommend you adjust to according to your needs for filter information.
+
+[Original Artifact ](https://mikeariv.github.io/animal_shelter.py)
 
 **Link to Enhancement**
 
 [Enhancement Three ](https://mikeariv.github.io/MongoDB_CRUD.py)
+[Additional Database Showcase ](https://mikeariv.github.io/fidofinder.py)
 
 **Porfolio Links**<br>
 * [Professional Self-Assessment](https://mikeariv.github.io/index.html)<br>
