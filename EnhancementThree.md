@@ -2,7 +2,7 @@
 
 This artifact was initially created in CS340, back in October of 2021, to showcase the ability to query from a MongoDB.  The initial commit did not have full functionality with queries.  For this reason the enhancement was needed to ensure usability.
 
-This enhancements was selected to showcase Create, Read, Update and Delete functionality in databases.  
+This enhancements was selected to showcase Create, Read, Update and Delete functionality in databases.  Additional information related to MongoDB is assessed in the additional database showcase.
 
 Specific highlights:
 
@@ -14,7 +14,7 @@ Comments also now reflect changes needed to meet other programmers needs and to 
 
 Development of enhanced queries via python is a way of automating database functionality to ensure validity from back end through to front end.  Having this system in place will furhter join applications from back end to front end in future projects.
 
-Additional database showcase related to plotting queries directly on a website can be seen at the additional link below.  Recommend you adjust to according to your needs for filter information.
+Additional database showcase reflects concepts of plotting queries directly on a website as previously mentioned with MongoDB and Plotly interfacing with JavaScript, and can be seen at the additional link below.
 
 [Original Artifact ](https://mikeariv.github.io/animal_shelter.py)
 
