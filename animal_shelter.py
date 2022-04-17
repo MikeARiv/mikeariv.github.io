@@ -1,9 +1,3 @@
-# Michael A. Rivera
-# CS-340-T1034 Client/Server Development
-# Southern New Hampshire University
-# October 17th, 2021
-
-
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
@@ -14,11 +8,11 @@ class AnimalShelter(object):
         # Initializing the MongoClient. This helps to
         # access the MongoDB databases and collections.
         #Update localhost port as required to your port
-        self.client = MongoClient('mongodb://localhost:37249')
+        self.client = MongoClient('mongodb://localhost:[enter your port number]')
         
         
         #Utilizes the local port for logon along with a username and password defined in fidofinder.ipynb.  Remove # for utilization
-        #self.client = MongoClient('mongodb://%s:%s@localhost:37249/?authMechanism=DEFAULT&authSource=AAC'%(username,password))
+        #self.client = MongoClient('mongodb://%s:%s@localhost:[enter your port number]/?authMechanism=DEFAULT&authSource=AAC'%(username,password))
         
         #initiates use of the AAC database in order to see the animals collection
         self.database = self.client['AAC']
