@@ -14,6 +14,7 @@ I was reintroduced to nesting of if and else statements and found them easier to
 
 
 **Link to Enhancement**
+
 [Original Artifact ](https://mikeariv.github.io/animal_shelter.py)
 [Enhancement One ](https://mikeariv.github.io/Employee_Tracker.py)
 
