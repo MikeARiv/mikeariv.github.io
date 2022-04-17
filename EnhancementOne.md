@@ -1,6 +1,6 @@
 ## Enhancement One: Software Engineering & Design
 
-The artifact chosen for was part of a final project for CS 340 and was created in October of 2021. Its purpose was to provide access to a dabase via username and password.  Upon further development, I found limitations in its use and have updated the artifact to show additional functionality.
+The artifact chosen for was part of a final project for CS 340 and was created in October of 2021. Its purpose was to provide access to a database via username and password.  Upon further development, I found limitations in its use and have updated the artifact to show additional functionality.
 
 For Employee_Tracker.py, I wanted to showcase my ability to create a basic login feature, with validation of username and password from a database.  Additionally, I wanted to be able to build upon this concept for the next few artifacts to include encryption of passwords to be stored and, once a person securely logs in, to display data from a database on a front-end system.
 
