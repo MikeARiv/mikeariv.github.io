@@ -21,6 +21,7 @@ Additional database showcase related to plotting queries directly on a website c
 **Link to Enhancement**
 
 [Enhancement Three ](https://mikeariv.github.io/MongoDB_CRUD.py)
+
 [Additional Database Showcase ](https://mikeariv.github.io/fidofinder.py)
 
 **Porfolio Links**<br>
